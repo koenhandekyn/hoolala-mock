@@ -1,0 +1,7 @@
+baseURL: https://pinpoint.org/
+languageCode: en-us
+title: PinPoint
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

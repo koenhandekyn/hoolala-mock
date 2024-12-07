@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main>
+  <h1 class="page">
+    <pp-title class="page">
+      <pp-left><a href="javascript:history.back()">⬅</a></pp-left>
+      <pp-center>{{ .Title }}</pp-center>
+      <pp-right>
+        <!-- or 🔧 -->
+        {{ if .Params.SettingsPath }}
+          <a href="{{ .Params.SettingsPath }}">⚙</a>
+        {{ end }}
+      </pp-right>
+    </pp-title>
+  </h1>
+  {{ .Content }}
+</main>
+{{ end }}
