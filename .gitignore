@@ -1,0 +1,30 @@
+# Directories
+public/
+resources/
+
+# Hugo-generated files
+hugo_stats.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.swp
+*~
+~*
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+
+# Node modules, if using npm/yarn
+node_modules/
+
+# Other dependencies or IDE files
+.vscode/
+.idea/
