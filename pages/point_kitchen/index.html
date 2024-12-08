@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta name="viewport" content="initial-scale=0.75">
+    <title>Kitchen | PinPoint</title>
+    <style>
+         
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+             
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: scale(0.75);
+        }
+
+         
+        a {
+            text-decoration: none;
+            color: #7b00ff;
+        }
+
+         
+        main {
+            width: 390px;
+            height: 844px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+             
+            overflow-y: auto;
+        }
+
+        pp-list {
+            display: grid;
+            grid-gap: 1rem;
+
+            & a {
+                 
+                display: flex;
+                align-items: center;
+                 
+                justify-content: space-between;
+                 
+                padding: 1rem;
+                background-color: #f0f0f0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #333;
+
+                &::before {
+                    content: attr(data-left);
+                    margin-right: 0.5rem;
+                    color: #666;
+                    width: 6em;
+                    text-align: left;
+                }
+
+                &::after {
+                    content: attr(data-right);
+                    color: #666;
+                    width: 6em;
+                    text-align: right;
+                }
+            }
+        }
+
+        pp-card {
+            display: block;
+            padding: 1rem;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            text-align: left;
+        }
+
+        pp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 75px);
+            grid-gap: 0.75rem;
+            justify-content: center;
+        }
+
+        pp-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 75px);
+            grid-gap: 0.75rem;
+            justify-content: center;
+
+             
+            a {
+                display: block;
+                padding: 1rem;
+                background-color: #f0f0f0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: center;
+                text-decoration: none;
+                color: #333;
+            }
+        }
+
+        pp-header {
+            display: block;
+            width: 100%;
+
+            font-size: 1.75rem;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        pp-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 0.5rem 0;
+             
+
+            & pp-left {
+                flex: 1;
+                text-align: left;
+            }
+
+            & pp-center {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                text-align: center;
+                width: 75%;
+            }
+
+            & pp-right {
+                flex: 1;
+                text-align: right;
+            }
+        }
+
+        pp-grid,
+        pp-list,
+        pp-card {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1.page {
+            margin: 0;
+            padding: 0;
+        }
+
+        pp-title.page {}
+
+        article {
+            & pp-title {
+                border-bottom: 1px solid #ccc;
+            }
+
+             
+        }
+
+         
+        button {
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007aff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+             
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+
+         
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 1rem;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+<main>
+  <h1 class="page">
+    <pp-title class="page">
+      <pp-left><a href="javascript:history.back()">⬅</a></pp-left>
+      <pp-center>Kitchen</pp-center>
+      <pp-right>
+        
+        
+          <a href="/settings">⚙</a>
+        
+      </pp-right>
+    </pp-title>
+  </h1>
+  <!-- A list of images as a grid -->
+<article>
+  <pp-header>
+    <pp-title>
+      <pp-left>(7)</pp-left>
+      <pp-center>Photos</pp-center>
+      <pp-right>
+        <a href="https://pinpoint.org/pages/add_photo/">➕</a>
+      </pp-right>
+    </pp-title>
+  </pp-header>
+  <pp-grid>
+    
+    
+    
+    <a href="/images/kitchens/kitchen1.jpeg"><img src="/images/kitchens/kitchen1_hu12335237081018470512.jpeg"></a>
+
+    
+    
+    
+    <a href="/images/kitchens/kitchen2.jpeg"><img src="/images/kitchens/kitchen2_hu8804489592395311024.jpeg"></a>
+
+    
+    
+    
+    <a href="/images/kitchens/kitchen3.jpeg"><img src="/images/kitchens/kitchen3_hu10922255534904119161.jpeg"></a>
+
+    
+    
+    
+    <a href="/images/kitchens/kitchen4.jpeg"><img src="/images/kitchens/kitchen4_hu16298964354635767010.jpeg"></a>
+
+    
+    
+    
+    <a href="/images/kitchens/kitchen5.jpeg"><img src="/images/kitchens/kitchen5_hu2668137670509198528.jpeg"></a>
+
+    
+    
+    
+    <a href="/images/kitchens/kitchen6.jpeg"><img src="/images/kitchens/kitchen6_hu3914626353122080559.jpeg"></a>
+
+    <img src="https://via.placeholder.com/75" alt="Kitchen">
+    <img src="https://via.placeholder.com/75" alt="Kitchen">
+  </pp-grid>
+</article>
+<article>
+  <pp-header>
+    <pp-title>
+      <pp-left>(3)</pp-left>
+      <pp-center>Notes</pp-center>
+      <a href="https://pinpoint.org/pages/add_note/">➕</a>
+    </pp-title>
+  </pp-header>
+  <pp-list>
+    <pp-card>
+      <pp-title>
+        <pp-left>2024-12-06</pp-left>
+        <pp-center>John</pp-center>
+        <pp-right>08:08</pp-right>
+      </pp-title>
+      Fixed the issue with the left kitchen door.
+    </pp-card>
+    <pp-card>
+      <pp-title>
+        <pp-left>2024-12-07</pp-left>
+        <pp-center>Jane</pp-center>
+        <pp-right>14:30</pp-right>
+      </pp-title>
+      Replaced the broken kitchen faucet.
+    </pp-card>
+    <pp-card>
+      <pp-title>
+        <pp-left>2024-12-08</pp-left>
+        <pp-center>Mike</pp-center>
+        <pp-right>09:45</pp-right>
+      </pp-title>
+      Cleaned the kitchen exhaust fan.
+    </pp-card>
+  </pp-list>
+</article>
+<article>
+  <pp-header>
+    <pp-title>
+      <pp-left>(3)</pp-left>
+      <pp-center>Documents</pp-center>
+      <a href="https://pinpoint.org/pages/add_document/">➕</a>
+    </pp-title>
+  </pp-header>
+  <pp-list>
+    <a href="" data-left="2.7mb" data-right="PDF">Kitchen Plan</a>
+    <a href="" data-left="3.1mb" data-right="PDF">Furnace Manual</a>
+    <a href="" data-left="17kb" data-right="PDF">Microwave Manual</a>
+  </pp-list>
+</article>
+
+</main>
+
+</body>
+
+</html>

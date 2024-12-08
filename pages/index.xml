@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on PinPoint</title>
+    <link>https://pinpoint.org/pages/</link>
+    <description>Recent content in Pages on PinPoint</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://pinpoint.org/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Document</title>
+      <link>https://pinpoint.org/pages/add_document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/add_document/</guid>
+      <description>&lt;style&gt;&#xA;  form {&#xA;    display: flex;&#xA;    flex-direction: column;&#xA;    align-items: center;&#xA;  }&#xA;  input[type=&#34;file&#34;],&#xA;  button {&#xA;    margin: 1em;&#xA;    width: 75%;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;form method=&#34;get&#34; action=&#34;https://pinpoint.org/pages/point_kitchen/&#34; &gt;&#xA;  &lt;input type=&#34;file&#34; accept=&#34;image/*&#34; onchange=&#34;this.form.submit()&#34;&gt;&#xA;  &lt;button type=&#34;submit&#34; style=&#34;display:none;&#34;&gt;Upload&lt;/button&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Add Note</title>
+      <link>https://pinpoint.org/pages/add_note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/add_note/</guid>
+      <description>&lt;style&gt;&#xA;  form {&#xA;    display: flex;&#xA;    flex-direction: column;&#xA;    align-items: center;&#xA;  }&#xA;  input[type=&#34;file&#34;],&#xA;  button {&#xA;  }&#xA;  textarea {&#xA;    width: 95%;&#xA;    height: 45em;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;form method=&#34;get&#34; action=&#34;https://pinpoint.org/pages/point_kitchen/&#34; &gt;&#xA;  &lt;textarea name=&#34;note&#34;&gt;&lt;/textarea&gt;&#xA;  &lt;button type=&#34;submit&#34;&gt;Upload&lt;/button&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Add Photo</title>
+      <link>https://pinpoint.org/pages/add_photo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/add_photo/</guid>
+      <description>&lt;style&gt;&#xA;  form {&#xA;    display: flex;&#xA;    flex-direction: column;&#xA;    align-items: center;&#xA;  }&#xA;  input[type=&#34;file&#34;],&#xA;  button {&#xA;    margin: 1em;&#xA;    width: 75%;&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;form method=&#34;get&#34; action=&#34;https://pinpoint.org/pages/point_kitchen/&#34; &gt;&#xA;  &lt;input type=&#34;file&#34; accept=&#34;image/*&#34; capture=&#34;camera&#34; onchange=&#34;this.form.submit()&#34;&gt;&#xA;  &lt;button type=&#34;submit&#34; style=&#34;display:none;&#34;&gt;Upload&lt;/button&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Choose Location</title>
+      <link>https://pinpoint.org/pages/choose_location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/choose_location/</guid>
+      <description>&lt;pp-list&gt;&#xA;  &lt;a href=&#34;https://pinpoint.org/pages/choose_point/&#34;&gt;Nieuwstraat 18, 9080 lochristi&lt;/a&gt;&#xA;  &lt;a href=&#34;https://pinpoint.org/pages/choose_point/&#34;&gt;Nieuwstraat 18, 9080 lochristi&lt;/a&gt;&#xA;&lt;pp-list&gt;</description>
+    </item>
+    <item>
+      <title>Choose Point</title>
+      <link>https://pinpoint.org/pages/choose_point/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/choose_point/</guid>
+      <description>&lt;pp-list&gt;&#xA;  &lt;a href=&#34;https://pinpoint.org/pages/point_kitchen/&#34;&gt;Kitchen&lt;/a&gt;&#xA;  &lt;a href=&#34;https://pinpoint.org/pages/point_kitchen/&#34;&gt;Bathroom&lt;/a&gt;&#xA;  &lt;a href=&#34;https://pinpoint.org/pages/point_kitchen/&#34;&gt;Master Bedroom&lt;/a&gt;&#xA;&lt;pp-list&gt;</description>
+    </item>
+    <item>
+      <title>Kitchen</title>
+      <link>https://pinpoint.org/pages/point_kitchen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pinpoint.org/pages/point_kitchen/</guid>
+      <description>&lt;!-- A list of images as a grid --&gt;&#xA;&lt;article&gt;&#xA;  &lt;pp-header&gt;&#xA;    &lt;pp-title&gt;&#xA;      &lt;pp-left&gt;(7)&lt;/pp-left&gt;&#xA;      &lt;pp-center&gt;Photos&lt;/pp-center&gt;&#xA;      &lt;pp-right&gt;&#xA;        &lt;a href=&#34;https://pinpoint.org/pages/add_photo/&#34;&gt;➕&lt;/a&gt;&#xA;      &lt;/pp-right&gt;&#xA;    &lt;/pp-title&gt;&#xA;  &lt;/pp-header&gt;&#xA;  &lt;pp-grid&gt;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen1.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen1_hu12335237081018470512.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen2.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen2_hu8804489592395311024.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen3.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen3_hu10922255534904119161.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen4.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen4_hu16298964354635767010.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen5.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen5_hu2668137670509198528.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &lt;a href=&#34;https://pinpoint.org/images/kitchens/kitchen6.jpeg&#34;&gt;&lt;img src=&#34;https://pinpoint.org/images/kitchens/kitchen6_hu3914626353122080559.jpeg&#34;&gt;&lt;/a&gt;&#xA;&#xA;    &lt;img src=&#34;https://via.placeholder.com/75&#34; alt=&#34;Kitchen&#34;&gt;&#xA;    &lt;img src=&#34;https://via.placeholder.com/75&#34; alt=&#34;Kitchen&#34;&gt;&#xA;  &lt;/pp-grid&gt;&#xA;&lt;/article&gt;&#xA;&lt;article&gt;&#xA;  &lt;pp-header&gt;&#xA;    &lt;pp-title&gt;&#xA;      &lt;pp-left&gt;(3)&lt;/pp-left&gt;&#xA;      &lt;pp-center&gt;Notes&lt;/pp-center&gt;&#xA;      &lt;a href=&#34;https://pinpoint.org/pages/add_note/&#34;&gt;➕&lt;/a&gt;&#xA;    &lt;/pp-title&gt;&#xA;  &lt;/pp-header&gt;&#xA;  &lt;pp-list&gt;&#xA;    &lt;pp-card&gt;&#xA;      &lt;pp-title&gt;&#xA;        &lt;pp-left&gt;2024-12-06&lt;/pp-left&gt;&#xA;        &lt;pp-center&gt;John&lt;/pp-center&gt;&#xA;        &lt;pp-right&gt;08:08&lt;/pp-right&gt;&#xA;      &lt;/pp-title&gt;&#xA;      Fixed the issue with the left kitchen door.&#xA;    &lt;/pp-card&gt;&#xA;    &lt;pp-card&gt;&#xA;      &lt;pp-title&gt;&#xA;        &lt;pp-left&gt;2024-12-07&lt;/pp-left&gt;&#xA;        &lt;pp-center&gt;Jane&lt;/pp-center&gt;&#xA;        &lt;pp-right&gt;14:30&lt;/pp-right&gt;&#xA;      &lt;/pp-title&gt;&#xA;      Replaced the broken kitchen faucet.&#xA;    &lt;/pp-card&gt;&#xA;    &lt;pp-card&gt;&#xA;      &lt;pp-title&gt;&#xA;        &lt;pp-left&gt;2024-12-08&lt;/pp-left&gt;&#xA;        &lt;pp-center&gt;Mike&lt;/pp-center&gt;&#xA;        &lt;pp-right&gt;09:45&lt;/pp-right&gt;&#xA;      &lt;/pp-title&gt;&#xA;      Cleaned the kitchen exhaust fan.&#xA;    &lt;/pp-card&gt;&#xA;  &lt;/pp-list&gt;&#xA;&lt;/article&gt;&#xA;&lt;article&gt;&#xA;  &lt;pp-header&gt;&#xA;    &lt;pp-title&gt;&#xA;      &lt;pp-left&gt;(3)&lt;/pp-left&gt;&#xA;      &lt;pp-center&gt;Documents&lt;/pp-center&gt;&#xA;      &lt;a href=&#34;https://pinpoint.org/pages/add_document/&#34;&gt;➕&lt;/a&gt;&#xA;    &lt;/pp-title&gt;&#xA;  &lt;/pp-header&gt;&#xA;  &lt;pp-list&gt;&#xA;    &lt;a href=&#34;&#34; data-left=&#34;2.7mb&#34; data-right=&#34;PDF&#34;&gt;Kitchen Plan&lt;/a&gt;&#xA;    &lt;a href=&#34;&#34; data-left=&#34;3.1mb&#34; data-right=&#34;PDF&#34;&gt;Furnace Manual&lt;/a&gt;&#xA;    &lt;a href=&#34;&#34; data-left=&#34;17kb&#34; data-right=&#34;PDF&#34;&gt;Microwave Manual&lt;/a&gt;&#xA;  &lt;/pp-list&gt;&#xA;&lt;/article&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pinpoint.org/pages/add_document/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/add_note/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/add_photo/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/categories/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/choose_location/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/choose_point/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/point_kitchen/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/pages/</loc>
+  </url><url>
+    <loc>https://pinpoint.org/tags/</loc>
+  </url>
+</urlset>
