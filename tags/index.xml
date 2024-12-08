@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PinPoint</title>
-    <link>https://pinpoint.org/tags/</link>
+    <link>https://koenhandekyn.github.io/hoolala-mock/tags/</link>
     <description>Recent content in Tags on PinPoint</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://pinpoint.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://koenhandekyn.github.io/hoolala-mock/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
