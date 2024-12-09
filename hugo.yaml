@@ -1,7 +1,7 @@
-baseURL: https://koenhandekyn.github.io/hoolala-mock/
+# baseURL: https://koenhandekyn.github.io/hoolala-mock/
 relativeURLs: true
 languageCode: en-us
-title: PinPoint
+title: Hoolala
 markup:
   goldmark:
     renderer:

@@ -8,7 +8,6 @@
     <meta name="viewport" content="initial-scale=0.75">
     <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <style>
-        /* Body Styling */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 16px;
@@ -17,32 +16,36 @@
             background-color: #f9f9f9;
             margin: 0;
             padding: 0;
-            /* vertical center content */
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: scale(0.75);
+        }
+
+        /* Body Styling for Desktop */
+        @media (min-width: 768px) {
+            body {
+                transform: scale(0.75);
+            }
+
+            /* Container for Centered Content */
+            main {
+                width: 390px;
+                height: 844px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+                overflow-y: auto;
+            }
         }
 
         /* links don't have decoration */
         a {
             text-decoration: none;
             color: #7b00ff;
-        }
-
-        /* Container for Centered Content */
-        main {
-            width: 390px;
-            height: 844px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
-            /* vertical scroll bar if needed */
-            overflow-y: auto;
         }
 
         pp-list {
