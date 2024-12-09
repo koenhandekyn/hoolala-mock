@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/</loc>
+    <loc>/</loc>
     <lastmod>2024-12-06T08:08:47+01:00</lastmod>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/add_document/</loc>
+    <loc>/pages/add_document/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/add_note/</loc>
+    <loc>/pages/add_note/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/add_photo/</loc>
+    <loc>/pages/add_photo/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/choose_location/</loc>
+    <loc>/pages/choose_location/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/choose_point/</loc>
+    <loc>/pages/choose_point/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/point_kitchen/</loc>
+    <loc>/pages/point_kitchen/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/pages/</loc>
+    <loc>/pages/</loc>
   </url><url>
-    <loc>https://koenhandekyn.github.io/hoolala-mock/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

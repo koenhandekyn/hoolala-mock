@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.75, user-scalable=yes">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <meta name="viewport" content="initial-scale=0.75">
-    <title>Choose Point | PinPoint</title>
+    <title>Choose Point | Hoolala</title>
     <style>
-         
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 16px;
@@ -17,32 +16,36 @@
             background-color: #f9f9f9;
             margin: 0;
             padding: 0;
-             
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: scale(0.75);
+        }
+
+         
+        @media (min-width: 768px) {
+            body {
+                transform: scale(0.75);
+            }
+
+             
+            main {
+                width: 390px;
+                height: 844px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+                overflow-y: auto;
+            }
         }
 
          
         a {
             text-decoration: none;
             color: #7b00ff;
-        }
-
-         
-        main {
-            width: 390px;
-            height: 844px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            border: 1px solid #ddd;
-            text-align: center;
-             
-            overflow-y: auto;
         }
 
         pp-list {
@@ -219,9 +222,9 @@
     </pp-title>
   </h1>
   <pp-list>
-  <a href="https://koenhandekyn.github.io/hoolala-mock/pages/point_kitchen/">Kitchen</a>
-  <a href="https://koenhandekyn.github.io/hoolala-mock/pages/point_kitchen/">Bathroom</a>
-  <a href="https://koenhandekyn.github.io/hoolala-mock/pages/point_kitchen/">Master Bedroom</a>
+  <a href="../../pages/point_kitchen/">Kitchen</a>
+  <a href="../../pages/point_kitchen/">Bathroom</a>
+  <a href="../../pages/point_kitchen/">Master Bedroom</a>
 <pp-list>
 
 </main>
